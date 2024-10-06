@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: white;
+    --border-color: #020202;
+    --bs-card-border-color: rgba(0, 0, 0, 0.623);
+
+}
+
+.heading {
+    margin-bottom: 20px;
+    padding: 50px 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+h2 {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 3px solid var(--border-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    display: inline-block;
+
+}
+
+
+
+/* --------------------------navbar-------------------- */
+
+
+/* --------------------------banner--------------------- */
+.banner_section {
+    position: relative;
+}
+
+.banner_section .banner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--text-color);
+}
+
+.banner_section .banner_image img {
+    max-height: 400px;
+}
+
+/* --------------------------Food items--------------------- */
+
+.home_food_item_section .price-card .food_text {
+    border: 1px solid var(--bs-card-border-color:rgba(0, 0, 0, 0.356));
+    border-top: none;
+    background: #ece1e1a4;
+}
+
+.home_food_item_section .food_image img {
+    transition: 0.4s;
+}
+
+.home_food_item_section .food_image {
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.home_food_item_section .price-card:hover .food_image img {
+    transform: scale(1.1);
+}
+
+.home_food_item_section .price-card:hover .btn {
+    background: transparent;
+    color: rgb(0, 132, 255);
+}
+
+/* --------------------------Gallery--------------------- */
+.home_gallerty_section img {
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.home_gallerty_section .gallery_image {
+    overflow: hidden;
+
+}
+
+.home_gallerty_section img:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+/* --------------------------feedback--------------------- */
+.home_feadback_section .card-body a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.home_feadback_section .card {
+    border: none !important;
+}
+
+.home_feadback_section img {
+    border-radius: 100%;
+}
+
+.home_feadback_section i {
+    color: sandybrown;
+}
+
+/* --------------------------footer--------------------- */
+.footer-section {
+    background: #000000;
+    color: white;
+}
+
+.footer-section h5 {
+    font-weight: 600;
+
+}
+
+.footer-section ul {
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    list-style: none;
+
+}
+
+.footer-section .socket {
+    padding-top: 40px;
+}
+
+
+/* ------------------------------------------------------home psge end--------------------------------------------- */
+/* -------------------------------------------------------About page start----------------------------------------- */
+
+
+/* ----about staff section- */
+.about_staff_section .card {
+    position: relative;
+}
+
+.about_staff_section {
+    padding: 70px 0;
+
+}
+
+.about_staff_section .card-footer {
+    background-color: #0e020281;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s;
+    color: #fff;
+
+
+}
+
+.about_staff_section .card-bodi {
+    overflow: hidden;
+}
+
+.about_staff_section .card-bodi img {
+    transition: 0.4s;
+}
+
+.about_staff_section .card:hover .card-bodi img {
+    transform: scale(1.1);
+}
+
+.about_staff_section .card-footer i {
+    transition: 0.4s;
+    color: #fff;
+    margin-right: 50px;
+}
+
+.about_staff_section .icon {
+    transition: all 0.4s;
+
+}
+
+.about_staff_section .card .icon {
+    /* display: none; */
+    transition: 0.4s;
+}
+
+.about_staff_section .card .icon ul a {
+    transition: 0.4s;
+}
+
+.about_staff_section .card:hover .card-footer {
+    opacity: 1;
+}
+
+.about_staff_section .card-footer i:hover {
+    color: rgb(245, 189, 179);
+}
+
+/* ----------------------------about company section-------- */
+.about_company_section {
+    background: #f5e3e375;
+    margin-top: 40px;
+}
+
+.about_company_section .company_text {
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.about_company_section .row img {
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.about_company_section img:hover {
+    transform: scale(1.1);
+}
+
+.about_company_section .row .company_image {
+border-radius: 10px;
+}
