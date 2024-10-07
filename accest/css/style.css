@@ -66,13 +66,15 @@ li {
 /* --------------------------Food items--------------------- */
 
 .home_food_item_section .price-card .food_text {
-    border: 1px solid var(--bs-card-border-color:rgba(0, 0, 0, 0.356));
+    border: 1px solid rgba(0, 0, 0, 0.055);
     border-top: none;
     background: #ece1e1a4;
 }
 
 .home_food_item_section .food_image img {
     transition: 0.4s;
+    object-fit: cover;
+    height: 200px;
 }
 
 .home_food_item_section .food_image {
